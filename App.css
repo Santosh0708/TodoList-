@@ -1,0 +1,80 @@
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(22, 63, 63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Activity{
+  height: 500px;
+  width: 500px;
+  background-color:rgb(255, 94, 0);
+ padding: 40px;
+ border-radius: 20px;
+ 
+}
+.Activity h1{
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 4px;
+}
+
+
+.Activity input{
+  height: 40px;
+  width: 320px;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: larger;
+  padding-left: 20px;
+  
+}
+.Activity input:hover{
+  box-shadow: 3px 3px red;
+}
+
+
+.Activity button{
+  height: 45px;
+  width: 80px;
+  margin-left: 30px;
+  border-radius: 10px;
+  font-size: larger;
+
+}
+.Activity button:hover{
+  background-color:rgb(53, 216, 206);
+  box-shadow: 3px 3px red;
+}
+
+.Activity p{
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+}
+.dataShow{
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  
+  margin-right: 40px;
+  font-size: 5px;
+ margin-top: 20px;
+
+}
+.btn:hover{
+  background-color: rgb(255, 55, 0);
+
+}
+h2{
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+}
